@@ -6,11 +6,15 @@
   "dependencies": {},
   "devDependencies": {
     "gulp-sketch": "^0.1.0",
-    "npm-which": "^2.0.0"
+    "npm-which": "^2.0.0",
+    "pre-commit": "^1.1.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+		"clean": "rm dist/*",
+		"build": "gulp sketch"
   },
+	"pre-commit": "clean, build",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/postcss/brand.git"
