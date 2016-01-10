@@ -2,6 +2,7 @@ var gulp = require('gulp');
 var sketch = require('gulp-sketch');
 var gutil  = require('gulp-util')
 var which  = require('npm-which')(__dirname);
+var svgmin = require('gulp-svgmin');
 
 gulp.task('sketch', function(){
   try {
@@ -16,5 +17,11 @@ gulp.task('sketch', function(){
       formats: 'svg'
     }))
     .pipe(gulp.dest('./dist/'));
+});
+
+gulp.task('minify', function () {
+    return gulp.src('./dist/*')
+        .pipe(svgmin())
+        .pipe(gulp.dest('./dist'));
 });
 
