@@ -4,7 +4,9 @@ PostCSS Brand is used for storing assoicated media for PostCSS such as artwork, 
 
 ![logo-hero](postcss-logo-anatomy.png)
 
-Just requires you use Sketch and use Git for version tracking. There is a pre-commit hook that will export slices into the dist folder.
+## Usage
+
+`gulp sketch` Uses SketchTool to export slices into `dist`
 
 ## License
 This project is copyright under the [Attribution 4.0 International License](LICENSE)
