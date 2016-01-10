@@ -1,0 +1,30 @@
+{
+  "name": "postcss-brand",
+  "version": "1.0.0",
+  "description": "Brand for PostCSS",
+  "main": "gulpfile.js",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp-sketch": "^0.1.0",
+    "npm-which": "^2.0.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/postcss/brand.git"
+  },
+  "keywords": [
+    "brand",
+    "postcss",
+    "identity"
+  ],
+  "author": "Stephen Way <stephen@stephenway.net> (http://stephenway.net)",
+  "license": "Creative Commons Attribution 4.0 International License",
+  "bugs": {
+    "url": "https://github.com/postcss/brand/issues"
+  },
+  "homepage": "https://github.com/postcss/brand#readme",
+  "private": "true"
+}
