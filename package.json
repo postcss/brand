@@ -5,6 +5,7 @@
   "main": "gulpfile.js",
   "dependencies": {},
   "devDependencies": {
+    "gulp": "^3.9.0",
     "gulp-sketch": "^0.1.0",
     "gulp-svgmin": "^1.2.0",
     "npm-which": "^2.0.0",
@@ -14,7 +15,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "clean": "rm dist/*",
     "build": "gulp sketch",
-		"minify": "gulp minify"
+    "minify": "gulp minify"
   },
   "pre-commit": "clean, build, minify",
   "repository": {
