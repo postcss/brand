@@ -2,7 +2,7 @@
 
 PostCSS Brand is used for storing assoicated media for PostCSS such as artwork, logo and images.  
 
-![logo-hero](postcss-logo-anatomy.png)
+![logo-hero](postcss-brand-spec.png)
 
 ## Usage
 
