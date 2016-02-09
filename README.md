@@ -10,4 +10,4 @@ PostCSS Brand is used for storing assoicated media for PostCSS such as artwork, 
 `gulp minify` Use SVGO to minify slices in `dist`
 
 ## License
-This project is copyright under the [Attribution 4.0 International License](LICENSE)
+This project is copyright under the [CC-BY 4.0 license](LICENSE)
